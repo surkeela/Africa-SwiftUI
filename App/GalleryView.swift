@@ -16,11 +16,11 @@ struct GalleryView: View {
     let haptic = UIImpactFeedbackGenerator(style: .medium)
     
     // SIMPLE GRID DEFINITION
-   // let gridLayout: [GridItem] = [
-   //     GridItem(.flexible()),
-   //     GridItem(.flexible()),
-   //     GridItem(.flexible())
-   // ]
+    // let gridLayout: [GridItem] = [
+    //     GridItem(.flexible()),
+    //     GridItem(.flexible()),
+    //     GridItem(.flexible())
+    // ]
     
     // EFFICIENT GRID DEFINITION
     // let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 3)

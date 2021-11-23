@@ -21,7 +21,7 @@ struct VideoListItemView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(height: 80)
-                .cornerRadius(9)
+                    .cornerRadius(9)
                 
                 Image(systemName: "play.circle")
                     .resizable()

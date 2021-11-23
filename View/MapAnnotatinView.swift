@@ -30,7 +30,7 @@ struct MapAnnotatinView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 48, height: 48, alignment: .center)
-            .clipShape(Circle())
+                .clipShape(Circle())
         } //: ZSTACK
         .onAppear {
             withAnimation(Animation.easeOut(duration: 2).repeatForever(autoreverses: false)) {
@@ -40,7 +40,7 @@ struct MapAnnotatinView: View {
     }
 }
 
-    // MARK: - PREVIEW
+// MARK: - PREVIEW
 
 struct MapAnnotatinView_Previews: PreviewProvider {
     static var locations: [NationalParkLocation] = Bundle.main
